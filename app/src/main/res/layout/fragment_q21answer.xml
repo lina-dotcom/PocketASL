@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.level11.alphabet.q21answer"
+    android:background="#ccedb9">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/n"
+        android:layout_marginLeft="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="100dp"
+        android:text="N"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="460dp"
+        android:text="Did you get it right? \nGreat job!"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/q21answernext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="550dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#63bd2f"/>
+
+
+</FrameLayout>

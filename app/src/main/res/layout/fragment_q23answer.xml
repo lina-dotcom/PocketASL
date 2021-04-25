@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.level11.alphabet.q23answer"
+    android:background="#f0cee6">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/p"
+        android:layout_marginLeft="80dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/i"
+        android:layout_marginLeft="80dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/e"
+        android:layout_marginLeft="80dp" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/pie"
+        android:layout_marginLeft="80dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="100dp"
+        android:text="PIE"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="480dp"
+        android:text="It's pie! Yum!"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/q23answernext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="550dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#d640aa"/>
+
+
+</FrameLayout>

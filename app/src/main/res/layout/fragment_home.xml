@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.home.HomeFragment"
+    android:paddingTop="30dp">
+
+
+
+    <TextView
+        android:id="@+id/welcome"
+        style="@style/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/ic_rectangle_11"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/level1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/ic_rectangle_12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/CircularDeterminateProgressBar"
+            android:layout_width="138dp"
+            android:layout_height="138dp"
+            android:indeterminate="false"
+            android:progress="0"
+            android:max="5"/>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/eyebrows"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 1"
+            android:textSize="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn the Alphabet"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="90dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level1lesson1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="246dp"
+        android:background="@drawable/ic_rectangle_82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson_1"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Letters A-G"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <Button
+            android:id="@+id/level1lesson1button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#FF9457"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level1lesson2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="311dp"
+        android:background="@drawable/ic_rectangle_82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson_2"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Letters H-P"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <Button
+            android:id="@+id/level1lesson2button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#FF9457"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level1lesson3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/ic_rectangle_82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson_3"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Letters Q-Z"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <Button
+            android:id="@+id/level1lesson3button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#FF9457"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level1lesson4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="441dp"
+        android:background="@drawable/ic_rectangle_82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson_4"
+            android:textSize="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fingerspelling"
+            android:textSize="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <Button
+            android:id="@+id/level1lesson4button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#FF9457"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level1review"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="506dp"
+        android:background="@drawable/ic_rectangle_82"
+        android:backgroundTint="#B8E5A3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 1 Review!"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/partypop"
+            android:gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="215dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/partypop2"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/level1reviewbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go!"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#61B938"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="596dp"
+        android:background="@drawable/ic_rectangle_12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progress_bar2"
+            style="@style/CircularDeterminateProgressBar"
+            android:layout_width="138dp"
+            android:layout_height="138dp"
+            android:indeterminate="false"
+            android:progress="1"
+            android:max="4"/>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/monocle"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 2"
+            android:textSize="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn Common Phrases"
+            android:textSize="19dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="90dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level2lesson1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="761dp"
+        android:background="@drawable/ic_rectangle_82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson_1"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Greetings"
+            android:textSize="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <Button
+            android:id="@+id/level2lesson1button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#FF9457"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level2lesson2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="827dp"
+        android:background="@drawable/ic_rectangle_82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson_2"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introductions"
+            android:textSize="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <Button
+            android:id="@+id/level2lesson2button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#FF9457"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level2lesson3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="891dp"
+        android:background="@drawable/ic_rectangle_82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson_3"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Common Words"
+            android:textSize="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <Button
+            android:id="@+id/level2lesson3button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#FF9457"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level2review"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="956dp"
+        android:background="@drawable/ic_rectangle_82"
+        android:backgroundTint="#B8E5A3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 2 Review!"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/partypop"
+            android:gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="215dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/partypop2"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/level2reviewbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go!"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#61B938"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="1056dp"
+        android:background="@drawable/ic_rectangle_12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progress_bar3"
+            style="@style/CircularDeterminateProgressBar"
+            android:layout_width="138dp"
+            android:layout_height="138dp"
+            android:indeterminate="false"
+            android:progress="1"
+            android:max="3"/>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/thinking"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 3"
+            android:textSize="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn Basic Questions"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="90dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level3lesson1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="1221dp"
+        android:background="@drawable/ic_rectangle_82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson_1"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question Words"
+            android:textSize="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <Button
+            android:id="@+id/level3lesson1button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#FF9457"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level3lesson2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="1286dp"
+        android:background="@drawable/ic_rectangle_82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson_2"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Common Questions"
+            android:textSize="13sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="17dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+        <Button
+            android:id="@+id/level3lesson2button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#FF9457"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/level3review"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="1351dp"
+        android:background="@drawable/ic_rectangle_82"
+        android:backgroundTint="#B8E5A3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/divider">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="77dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 3 Review!"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/partypop"
+            android:gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="215dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/partypop2"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/level3reviewbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go!"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#61B938"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/level3review"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

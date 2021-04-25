@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.level11.alphabet.q33"
+    android:background="#d3e4f5">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="180dp"
+        android:text="How about a fun challenge to get ready for fingerspelling..."
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="300dp"
+        android:text="Try Signing:"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="360dp"
+        android:text="'ICE CREAM'"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/q33answer"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Answer!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="520dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#4d95db"/>
+
+
+</FrameLayout>

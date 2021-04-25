@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PocketASL</string>
+    <string name="title_home">Learn</string>
+    <string name="title_dashboard">Goals</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="welcome">Welcome Back to PocketASL!</string>
+    <string name="go">Go!</string>
+    <string name="fingerspelling">Fingerspelling</string>
+    <string name="lesson_2">Lesson 2</string>
+    <string name="the_alphabet">The Alphabet</string>
+    <string name="lesson_1">Lesson 1</string>
+    <string name="lesson_3">Lesson 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="doing_fantastic">You’re doing fantastic! Let’s do a little quiz to see what you remember!</string>
+    <string name="lesson_4">Lesson 4</string>
+</resources>

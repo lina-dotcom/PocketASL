@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alphabet3_navigation"
+    app:startDestination="@+id/navigation_q">
+
+    <fragment
+        android:id="@+id/navigation_q"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.q"
+        tools:layout="@layout/fragment_q">
+
+        <action
+            android:id="@+id/action_q_to_r"
+            app:destination="@id/navigation_r"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_r"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.r"
+        tools:layout="@layout/fragment_r">
+
+        <action
+            android:id="@+id/action_r_to_s"
+            app:destination="@id/navigation_s"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_s"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.s"
+        tools:layout="@layout/fragment_s">
+
+        <action
+            android:id="@+id/action_s_to_t"
+            app:destination="@id/navigation_t"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_t"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.t"
+        tools:layout="@layout/fragment_t">
+
+        <action
+            android:id="@+id/action_t_to_u"
+            app:destination="@id/navigation_u"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_u"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.u"
+        tools:layout="@layout/fragment_u">
+
+        <action
+            android:id="@+id/action_u_to_v"
+            app:destination="@id/navigation_v"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_v"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.v"
+        tools:layout="@layout/fragment_v">
+
+        <action
+            android:id="@+id/action_v_to_w"
+            app:destination="@id/navigation_w"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_w"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.w"
+        tools:layout="@layout/fragment_w">
+
+        <action
+            android:id="@+id/action_w_to_x"
+            app:destination="@id/navigation_x"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_x"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.x"
+        tools:layout="@layout/fragment_x">
+
+        <action
+            android:id="@+id/action_x_to_y"
+            app:destination="@id/navigation_y"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_y"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.y"
+        tools:layout="@layout/fragment_y">
+
+        <action
+            android:id="@+id/action_y_to_z"
+            app:destination="@id/navigation_z"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_z"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.z"
+        tools:layout="@layout/fragment_z">
+
+        <action
+            android:id="@+id/action_z_to_quiz3"
+            app:destination="@id/navigation_quiz3"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_quiz3"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.quiz3"
+        tools:layout="@layout/fragment_quiz3">
+
+        <action
+            android:id="@+id/action_quiz3_to_q31"
+            app:destination="@id/navigation_q31"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_q31"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.q31"
+        tools:layout="@layout/fragment_q31">
+
+        <action
+            android:id="@+id/action_q31_to_q31answer"
+            app:destination="@id/navigation_q31answer"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_q31answer"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.q31answer"
+        tools:layout="@layout/fragment_q31answer">
+
+        <action
+            android:id="@+id/action_q31answer_to_q32"
+            app:destination="@id/navigation_q32"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_q32"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.q32"
+        tools:layout="@layout/fragment_q32">
+
+        <action
+            android:id="@+id/action_q32_to_q32answer"
+            app:destination="@id/navigation_q32answer"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_q32answer"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.q32answer"
+        tools:layout="@layout/fragment_q32answer">
+
+        <action
+            android:id="@+id/action_q32answer_to_q33"
+            app:destination="@id/navigation_q33"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_q33"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.q33"
+        tools:layout="@layout/fragment_q33">
+
+        <action
+            android:id="@+id/action_q33_to_q33answer"
+            app:destination="@id/navigation_q33answer"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_q33answer"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.q33answer"
+        tools:layout="@layout/fragment_q33answer">
+
+        <action
+            android:id="@+id/action_q33answer_to_quiz3back"
+            app:destination="@id/navigation_quiz3back"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_quiz3back"
+        android:name="com.pocketasl.myapplication.ui.home.level11.alphabet.quiz3back"
+        tools:layout="@layout/fragment_quiz3back">
+    </fragment>
+</navigation>
